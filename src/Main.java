@@ -4,7 +4,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.println("Select a shape (Rectangle, Circle, Triangle, Square) or type 'exit' to quit:");
+            System.out.println("Select (Rectangle, Circle, Triangle, Square) or type 'exit' to quit:");
             String choice = scanner.next();
 
             if (choice.equalsIgnoreCase("exit")) {
